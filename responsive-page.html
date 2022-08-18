@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Tailwind CSS</title>
+</head>
+
+<body>
+    <nav class="px-2 py-4 bg-purple-900 text-white">
+        <ul class="flex">
+            <li class="mx-2 cursor-pointer"><a href="index.html"> Home</a></li>
+            <li class="mx-2 cursor-pointer"><a href="landing-page.html"> Landing Page Sample</a></li>
+            <li class="mx-2 cursor-pointer"><a href="font-sample.html"> Font</a></li>
+            <li class="mx-2 cursor-pointer"><a href="margin-border-padding.html">Margin,Border,Padding</a></li>
+            <li class="mx-2 cursor-pointer"><a href="responsive-page.html">Responsive</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="bg-red-600 sm:bg-yellow-600 lg:bg-green-700 lg:text-black">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi earum. Sit ullam in
+            cupiditate enim expedita at totam, debitis quis modi magnam et saepe tempora quam corrupti inventore tempore
+            quod soluta. Saepe voluptates fuga dolore porro ratione repellat magnam itaque sed et beatae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eligendi earum. Sit ullam in
+            cupiditate enim expedita at totam, debitis quis modi magnam et saepe tempora quam corrupti inventore tempore
+            quod soluta. Saepe voluptates fuga dolore porro ratione repellat magnam itaque sed et beatae?
+        </div><br />
+        <br />
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div class="md:shrink-0">
+                    <div class="h-48 w-full object-cover md:h-full md:w-48"></div>
+                </div>
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding
+                        customers for your new business</a>
+                    <p class="mt-2 text-slate-500">Getting a new business off the ground is a lot of hard work. Here are
+                        five ideas you can use to find your first customers.</p>
+                </div>
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="flex space-x-2 justify-center">
+            <h1 class="text-2xl">@apply directive in Tailwind CSS</h1>
+            <br /><br />
+            <button type="button" class="apply-directive-btn">Submit</button>
+            <button type="button" class="apply-directive-btn">Button</button>
+            <button type="button" class="y-btn">Yellow</button>
+
+        </div><br /><br />
+        <div class="flex space-x-2 justify-center">
+            <h1 class="text-2xl">@laying directive in Tailwind CSS</h1>
+            <br /><br />
+            <button type="button" class="y-btn-1">Submit</button>
+
+        </div>
+    </main>
+</body>
+
+</html>
